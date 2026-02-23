@@ -3,11 +3,8 @@ layout: home
 
 hero:
   name: "Software Verification in Lean"
-  text: "Paris, 20 April 2026"
-  tagline: A one-day workshop exploring the frontiers of software verification using the Lean theorem prover.
-  image:
-    src: /images/BAIF_Logo.png
-    alt: Beneficial AI Foundation
+  text: "2026"
+  tagline: Advancing software correctness with the Lean theorem prover
 ---
 
 ::: warning Provisional
