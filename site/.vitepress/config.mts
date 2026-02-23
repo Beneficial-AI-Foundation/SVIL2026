@@ -14,7 +14,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/Beneficial-AI-Foundation/SVIL2026/edit/main/site/:path',
+      pattern: 'https://github.com/Beneficial-AI-Foundation/SVIL2026/edit/master/site/:path',
       text: 'Edit this page on GitHub'
     }
   }
