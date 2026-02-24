@@ -5,8 +5,12 @@ import './custom.css'
 import './hero.css'
 import './sections.css'
 import Layout from './Layout.vue'
+import PartnerLogos from './components/PartnerLogos.vue'
 
 export default {
   extends: DefaultTheme,
-  Layout
+  Layout,
+  enhanceApp({ app }) {
+    app.component('PartnerLogos', PartnerLogos)
+  }
 }

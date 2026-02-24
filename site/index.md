@@ -52,3 +52,11 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
 ## Venue
 
 [INRIA](https://www.inria.fr), Paris — [48 rue Barrault, 75013 Paris, France](https://maps.google.com/?q=48+rue+Barrault,+75013+Paris,+France)
+
+<div class="section-alt">
+
+## Partners
+
+<PartnerLogos />
+
+</div>
