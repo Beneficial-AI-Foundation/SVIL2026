@@ -4,20 +4,16 @@ layout: home
 hero:
   name: "Software Verification in Lean"
   text: "2026"
-  tagline: Advancing software correctness with the Lean theorem prover
+  tagline: Advancing software correctness with the Lean
 ---
 
 ::: warning Provisional
 All information on this page is provisional and subject to change.
 :::
 
-<div class="section-alt">
-
 ## About
 
-Software Verification in Lean is a one-day open workshop dedicated to the formal verification of software using the Lean 4 theorem prover. Held as part of a broader gathering at INRIA Paris, the workshop brings together researchers and practitioners to share recent advances, practical techniques, and ongoing challenges in building verified software. Whether you work in proof engineering, programming language theory, or software development, we invite you to join us for a day of talks and discussion.
-
-</div>
+Software Verification in Lean is a one-day open workshop dedicated to the formal verification of software using the Lean 4 theorem prover. The workshop brings together researchers and practitioners to share recent advances, practical techniques, and ongoing challenges in building verified software. Whether you work in proof engineering, programming language theory, or software development, we invite you to join us for a day of talks and discussion.
 
 ## Schedule
 
@@ -26,17 +22,15 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
 <tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
 </thead>
 <tbody>
-<tr><td>10:00–11:00</td><td>Leo de Moura <em>(TBA)</em></td><td><em>To be announced</em></td></tr>
+<tr><td>10:00–11:00</td><td>Leo de Moura <em>(TBC)</em></td><td><em>To be announced</em></td></tr>
 <tr class="break-row"><td>11:00–11:30</td><td colspan="2">Coffee break</td></tr>
-<tr><td>11:30–12:30</td><td>Son Ho <em>(TBA)</em></td><td><em>To be announced</em></td></tr>
+<tr><td>11:30–12:30</td><td>Son Ho <em>(TBC)</em></td><td><em>To be announced</em></td></tr>
 <tr class="break-row"><td>12:30–14:00</td><td colspan="2">Lunch break</td></tr>
-<tr><td>14:00–15:00</td><td>Derek Sorenson <em>(TBA)</em></td><td><em>To be announced</em></td></tr>
+<tr><td>14:00–15:00</td><td>Derek Sorenson <em>(TBC)</em></td><td><em>To be announced</em></td></tr>
 <tr class="break-row"><td>15:00–15:30</td><td colspan="2">Coffee break</td></tr>
-<tr><td>15:30–16:30</td><td>Karthik Bhargavan <em>(TBA)</em></td><td><em>To be announced</em></td></tr>
+<tr><td>15:30–16:30</td><td>Karthik Bhargavan <em>(TBC)</em></td><td><em>To be announced</em></td></tr>
 </tbody>
 </table>
-
-<div class="section-alt">
 
 ## Organizers
 
@@ -47,13 +41,14 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
   <span>Alessandro D'Angelo <em>(BAIF)</em></span>
 </div>
 
-</div>
-
 ## Venue
 
-[INRIA](https://www.inria.fr), Paris — [48 rue Barrault, 75013 Paris, France](https://maps.google.com/?q=48+rue+Barrault,+75013+Paris,+France)
+<div class="venue-block">
+  <span class="venue-name"><a href="https://www.inria.fr" target="_blank" rel="noopener">INRIA Paris</a></span><br>
+  <span class="venue-address"><a href="https://maps.google.com/?q=48+rue+Barrault,+75013+Paris,+France">48 rue Barrault, 75013 Paris, France</a></span>
+</div>
 
-<div class="section-alt">
+<div class="partners-section">
 
 ## Partners
 

@@ -2,7 +2,7 @@
 import { withBase } from 'vitepress'
 
 const partners = [
-  { name: 'BAIF', logo: '/images/BAIF_Logo.png', url: 'https://beneficialaifoundation.org' },
+  { name: 'BAIF', logo: '/images/BAIF_Logo.png', url: 'https://beneficialaifoundation.org', invert: true },
   { name: 'Lean FRO', logo: '/images/lean_fro_logo.svg', url: 'https://lean-fro.org' },
   { name: 'INRIA', logo: '/images/inria_logo.svg', url: 'https://www.inria.fr' },
 ]
@@ -10,7 +10,8 @@ const partners = [
 
 <template>
   <div class="partner-logos">
-    <a v-for="p in partners" :key="p.name" :href="p.url" target="_blank" rel="noopener">
+    <a v-for="p in partners" :key="p.name" :href="p.url" target="_blank" rel="noopener"
+       :class="{ 'logo-invert': p.invert }">
       <img :src="withBase(p.logo)" :alt="p.name" class="partner-logo" />
     </a>
   </div>
@@ -33,5 +34,15 @@ const partners = [
 }
 .partner-logo:hover {
   opacity: 1;
+}
+/* White logos get a dark pill background in light mode */
+.logo-invert {
+  background: #1e3a5f;
+  border-radius: 8px;
+  padding: 6px 14px;
+}
+.dark .logo-invert {
+  background: transparent;
+  padding: 0;
 }
 </style>

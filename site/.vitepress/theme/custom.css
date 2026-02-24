@@ -34,11 +34,11 @@
   --vp-c-brand-3: #3a6a9f;
   --vp-c-brand-soft: rgba(90, 138, 191, 0.16);
 
-  /* Background overrides (charcoal) */
-  --vp-c-bg: #1a1a2e;
-  --vp-c-bg-alt: #16162a;
-  --vp-c-bg-elv: #1e1e36;
-  --vp-c-bg-soft: #1e1e36;
+  /* Background overrides (deep blue-charcoal, no purple) */
+  --vp-c-bg: #141c26;
+  --vp-c-bg-alt: #111922;
+  --vp-c-bg-elv: #1a2332;
+  --vp-c-bg-soft: #1a2332;
 
   /* Gold stays the same in dark mode */
   --svil-accent: #d4a853;
