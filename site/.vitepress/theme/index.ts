@@ -3,6 +3,7 @@
 import DefaultTheme from 'vitepress/theme-without-fonts'
 import './custom.css'
 import './hero.css'
+import './sections.css'
 import Layout from './Layout.vue'
 
 export default {

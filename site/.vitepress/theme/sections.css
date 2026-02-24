@@ -1,0 +1,114 @@
+/* SVIL2026 Content Sections
+ * Styling for About, Schedule, Organizers, Venue sections.
+ * Warning banner gold override, heading accents, alternating backgrounds,
+ * schedule table, TBA placeholders, organizer layout.
+ * Unlayered CSS beats VitePress @layer __vitepress_base automatically.
+ */
+
+/* ------------------------------------------------
+ * Warning banner: gold accent override
+ * ------------------------------------------------ */
+:root {
+  --vp-custom-block-warning-border: var(--svil-accent);
+  --vp-custom-block-warning-bg: var(--svil-accent-soft);
+  --vp-custom-block-warning-text: var(--vp-c-text-1);
+  --vp-custom-block-warning-code-bg: var(--svil-accent-soft);
+}
+
+.custom-block.warning .custom-block-title {
+  color: var(--svil-accent);
+}
+
+/* ------------------------------------------------
+ * Section heading: gold underline accent
+ * ------------------------------------------------ */
+.vp-doc h2 {
+  border-bottom: 3px solid var(--svil-accent);
+  padding-bottom: 0.4rem;
+  display: inline-block;
+}
+
+/* Reset to block flow after inline-block heading */
+.vp-doc h2::after {
+  content: '';
+  display: block;
+}
+
+/* ------------------------------------------------
+ * Alternating section backgrounds
+ * ------------------------------------------------ */
+.section-alt {
+  background-color: rgba(30, 58, 95, 0.03);
+  margin-left: -48px;
+  margin-right: -48px;
+  padding: 2rem 48px;
+}
+
+/* ------------------------------------------------
+ * Schedule table styling
+ * ------------------------------------------------ */
+.vp-doc table thead {
+  background-color: var(--vp-c-brand-1);
+}
+
+.vp-doc table thead th {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.vp-doc table td,
+.vp-doc table th {
+  padding: 0.6rem 1rem;
+}
+
+/* Break rows (coffee, lunch) */
+.vp-doc table tr.break-row td {
+  background-color: rgba(30, 58, 95, 0.04);
+  font-style: italic;
+  text-align: center;
+}
+
+/* ------------------------------------------------
+ * TBA / placeholder styling
+ * ------------------------------------------------ */
+.vp-doc table td em {
+  color: var(--vp-c-text-3);
+  font-style: italic;
+}
+
+/* ------------------------------------------------
+ * Organizer list
+ * ------------------------------------------------ */
+.organizer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem 2.5rem;
+  margin-top: 1rem;
+  font-size: 1.05rem;
+}
+
+.organizer-list span {
+  white-space: nowrap;
+}
+
+.organizer-list em {
+  color: var(--vp-c-text-2);
+  font-style: normal;
+}
+
+/* ------------------------------------------------
+ * Dark mode overrides
+ * ------------------------------------------------ */
+.dark .section-alt {
+  background-color: rgba(90, 138, 191, 0.04);
+}
+
+.dark .vp-doc table thead {
+  background-color: var(--vp-c-brand-1);
+}
+
+.dark .vp-doc table tr.break-row td {
+  background-color: rgba(90, 138, 191, 0.06);
+}
