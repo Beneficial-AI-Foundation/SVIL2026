@@ -5,6 +5,9 @@ hero:
   name: "Software Verification in Lean"
   text: "2026"
   tagline: Advancing software correctness with the Lean
+  image:
+    src: /images/Lean-banner.png
+    alt: LEAN wordmark with verification robot illustration
 ---
 
 ::: warning Provisional

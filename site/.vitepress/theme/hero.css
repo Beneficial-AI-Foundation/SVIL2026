@@ -39,18 +39,55 @@
 }
 
 /* ------------------------------------------------
- * Hero text colors (light on dark gradient)
+ * Hero text — display serif for name and year
  * ------------------------------------------------ */
 .VPHero .main .name {
+  font-family: var(--svil-font-display);
   color: #ffffff;
 }
 
 .VPHero .main .text {
+  font-family: var(--svil-font-display);
   color: rgba(255, 255, 255, 0.85);
 }
 
 .VPHero .main .tagline {
   color: rgba(255, 255, 255, 0.75);
+}
+
+/* ------------------------------------------------
+ * Hero image: rectangular mask blending into gradient
+ * ------------------------------------------------ */
+.VPHero .image-container {
+  width: auto;
+  max-width: none;
+  overflow: visible;
+  margin-left: 2rem;
+}
+
+/* Override VitePress -32px upward shift on image container */
+@media (min-width: 960px) {
+  .VPHero .image-container {
+    transform: translate(-32px, 0);
+  }
+}
+
+.VPHero .VPImage {
+  max-width: 620px;
+  width: 620px;
+  -webkit-mask-image:
+    linear-gradient(to right, transparent, black 10%, black 90%, transparent),
+    linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(to right, transparent, black 10%, black 90%, transparent),
+    linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+  mask-composite: intersect;
+}
+
+/* Hide the default VitePress decorative glow behind image */
+.VPHero .image-bg {
+  display: none;
 }
 
 /* ------------------------------------------------
@@ -63,8 +100,14 @@
 }
 
 /* ------------------------------------------------
- * Dark mode adjustments
+ * Dark mode — deeper gradient with warm radial glow
  * ------------------------------------------------ */
 .dark .VPHero {
-  background: linear-gradient(135deg, #0d1b2a 0%, #060d17 100%);
+  background:
+    radial-gradient(ellipse at 50% 60%, rgba(219, 181, 106, 0.03) 0%, transparent 70%),
+    linear-gradient(135deg, #0a1520 0%, #040a12 100%);
+}
+
+.dark .VPHero::after {
+  opacity: 0.035;
 }

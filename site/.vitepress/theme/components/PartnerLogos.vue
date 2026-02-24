@@ -24,25 +24,36 @@ const partners = [
   justify-content: center;
   gap: 3rem;
   flex-wrap: wrap;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
+
 .partner-logo {
-  height: 50px;
+  height: 48px;
   width: auto;
-  opacity: 0.85;
-  transition: opacity 0.2s;
+  opacity: 0.8;
+  transition: opacity 0.3s ease, filter 0.3s ease, transform 0.3s ease;
 }
+
 .partner-logo:hover {
   opacity: 1;
+  transform: translateY(-1px);
 }
-/* White logos get a dark pill background in light mode */
+
+/* White logos: brand-colored pill in light mode */
 .logo-invert {
   background: #1e3a5f;
-  border-radius: 8px;
-  padding: 6px 14px;
+  border-radius: 10px;
+  padding: 8px 16px;
+  transition: background 0.3s ease;
 }
+
 .dark .logo-invert {
   background: transparent;
   padding: 0;
+}
+
+/* Dark mode: gold glow on hover */
+.dark .partner-logo:hover {
+  filter: drop-shadow(0 0 8px rgba(219, 181, 106, 0.15));
 }
 </style>

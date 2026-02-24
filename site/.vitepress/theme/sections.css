@@ -18,16 +18,19 @@
 }
 
 /* ------------------------------------------------
- * Section headings: short gold accent underline
+ * Section headings: display serif + short gold accent
  * ------------------------------------------------ */
 .vp-doc h2 {
+  font-family: var(--svil-font-display);
   position: relative;
   margin-top: 3.5rem;
   padding-top: 0;
   padding-bottom: 0.75rem;
   border-top: none;
   border-bottom: none;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  font-size: 1.6rem;
 }
 
 .vp-doc h2::after {
@@ -38,13 +41,18 @@
   width: 2.5rem;
   height: 2px;
   background: var(--svil-accent);
+  transition: width 0.3s ease;
+}
+
+.vp-doc h2:hover::after {
+  width: 4rem;
 }
 
 /* ------------------------------------------------
  * Schedule table
  * ------------------------------------------------ */
 .vp-doc table {
-  width: 100%;
+  display: table;
   border-collapse: separate;
   border-spacing: 0;
   border-radius: 8px;
@@ -69,6 +77,7 @@
   padding: 0.75rem 1.25rem;
   border: none;
   border-top: 1px solid var(--vp-c-divider);
+  transition: background-color 0.2s ease;
 }
 
 .vp-doc table tbody tr:not(.break-row):hover td {
@@ -163,13 +172,15 @@
 }
 
 .partners-section h2 {
+  font-family: var(--vp-font-family-base);
   border-bottom: none;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--vp-c-text-3);
   margin-top: 0;
   padding-bottom: 0;
+  font-weight: 600;
 }
 
 .partners-section h2::after {
@@ -177,16 +188,42 @@
 }
 
 /* ------------------------------------------------
- * Dark mode refinements
+ * Dark mode — gold on midnight
  * ------------------------------------------------ */
+
+/* Gold accent underline glows softly */
+.dark .vp-doc h2::after {
+  box-shadow: 0 0 8px rgba(219, 181, 106, 0.25);
+}
+
+/* Table: gradient header, refined borders */
+.dark .vp-doc table {
+  border-color: rgba(100, 140, 180, 0.1);
+}
+
+.dark .vp-doc table thead {
+  background: linear-gradient(135deg, #1a3050 0%, #152840 100%);
+}
+
 .dark .vp-doc table tbody tr:not(.break-row):hover td {
-  background: rgba(90, 138, 191, 0.04);
+  background: rgba(107, 159, 212, 0.05);
 }
 
 .dark .vp-doc table tr.break-row td {
-  background: rgba(90, 138, 191, 0.05);
+  background: rgba(100, 140, 180, 0.04);
 }
 
+/* Organizer interpunct: soft gold glow */
+.dark .organizer-list span + span::before {
+  text-shadow: 0 0 6px rgba(219, 181, 106, 0.3);
+}
+
+/* Venue link */
 .dark .venue-block .venue-name a {
   color: var(--vp-c-brand-1);
+}
+
+/* Partners border: gold-tinted */
+.dark .partners-section {
+  border-top-color: rgba(219, 181, 106, 0.1);
 }
