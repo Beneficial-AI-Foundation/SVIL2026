@@ -3,39 +3,58 @@ layout: home
 
 hero:
   name: "Software Verification in Lean"
-  text: "Paris, 20 April 2026"
-  tagline: A one-day workshop exploring the frontiers of software verification using the Lean theorem prover.
+  text: "2026"
+  tagline: Advancing software correctness with the Lean
   image:
-    src: /images/BAIF_Logo.png
-    alt: Beneficial AI Foundation
+    src: /images/Lean-banner.png
+    alt: LEAN wordmark with verification robot illustration
 ---
 
 ::: warning Provisional
 All information on this page is provisional and subject to change.
 :::
 
+## About
+
+Software Verification in Lean is a one-day open workshop dedicated to the formal verification of software using the Lean 4 theorem prover. The workshop brings together researchers and practitioners to share recent advances, practical techniques, and ongoing challenges in building verified software. Whether you work in proof engineering, programming language theory, or software development, we invite you to join us for a day of talks and discussion.
+
 ## Schedule
 
-| Time | Speaker | Title |
-|------|---------|-------|
-| 10:00–11:00 | Leo de Moura *(affiliation)* | *To be announced* |
-| 11:30–12:30 | Son Ho *(affiliation)* | *To be announced* |
-| 14:00–15:00 | Derek Sorenson *(affiliation)* | *To be announced* |
-| 15:30–16:30 | Karthik Bhargavan *(affiliation)* | *To be announced* |
+<table>
+<thead>
+<tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
+</thead>
+<tbody>
+<tr><td>10:00–11:00</td><td>Leo de Moura <em>(TBC)</em></td><td><em>To be announced</em></td></tr>
+<tr class="break-row"><td>11:00–11:30</td><td colspan="2">Coffee break</td></tr>
+<tr><td>11:30–12:30</td><td>Son Ho <em>(TBC)</em></td><td><em>To be announced</em></td></tr>
+<tr class="break-row"><td>12:30–14:00</td><td colspan="2">Lunch break</td></tr>
+<tr><td>14:00–15:00</td><td>Derek Sorenson <em>(TBC)</em></td><td><em>To be announced</em></td></tr>
+<tr class="break-row"><td>15:00–15:30</td><td colspan="2">Coffee break</td></tr>
+<tr><td>15:30–16:30</td><td>Karthik Bhargavan <em>(TBC)</em></td><td><em>To be announced</em></td></tr>
+</tbody>
+</table>
 
 ## Organizers
 
-[Shaowei Lin](mailto:shaowei@beneficialaifoundation.org) · [Alessandro D'Angelo](mailto:alessandro@beneficialaifoundation.org)
-
-<div style="display: flex; align-items: center; gap: 2.5rem; flex-wrap: wrap; margin-top: 1rem;">
-  <a href="https://lean-fro.org" target="_blank">
-    <img src="/images/lean_fro_logo.svg" alt="Lean FRO" style="height: 50px;">
-  </a>
-  <a href="https://www.inria.fr" target="_blank">
-    <img src="/images/inria_logo.svg" alt="INRIA" style="height: 50px;">
-  </a>
+<div class="organizer-list">
+  <span>Ashley Blacquiere <em>(Lean FRO)</em></span>
+  <span>Oliver Butterley <em>(BAIF)</em></span>
+  <span>Shaowei Lin <em>(BAIF)</em></span>
+  <span>Alessandro D'Angelo <em>(BAIF)</em></span>
 </div>
 
 ## Venue
 
-[INRIA](https://www.inria.fr), Paris — [48 rue Barrault, 75013 Paris, FRANCE](https://maps.google.com/?q=48+rue+Barrault,+75013+Paris,+France)
+<div class="venue-block">
+  <span class="venue-name"><a href="https://www.inria.fr" target="_blank" rel="noopener">INRIA Paris</a></span><br>
+  <span class="venue-address"><a href="https://maps.google.com/?q=48+rue+Barrault,+75013+Paris,+France">48 rue Barrault, 75013 Paris, France</a></span>
+</div>
+
+<div class="partners-section">
+
+## Partners
+
+<PartnerLogos />
+
+</div>

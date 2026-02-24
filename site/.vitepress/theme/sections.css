@@ -1,0 +1,229 @@
+/* SVIL2026 Content Sections
+ * Professional styling for academic conference page.
+ * Unlayered CSS beats VitePress @layer __vitepress_base.
+ */
+
+/* ------------------------------------------------
+ * Warning banner: gold accent
+ * ------------------------------------------------ */
+:root {
+  --vp-custom-block-warning-border: var(--svil-accent);
+  --vp-custom-block-warning-bg: var(--svil-accent-soft);
+  --vp-custom-block-warning-text: var(--vp-c-text-1);
+  --vp-custom-block-warning-code-bg: var(--svil-accent-soft);
+}
+
+.custom-block.warning .custom-block-title {
+  color: var(--svil-accent);
+}
+
+/* ------------------------------------------------
+ * Section headings: display serif + short gold accent
+ * ------------------------------------------------ */
+.vp-doc h2 {
+  font-family: var(--svil-font-display);
+  position: relative;
+  margin-top: 3.5rem;
+  padding-top: 0;
+  padding-bottom: 0.75rem;
+  border-top: none;
+  border-bottom: none;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.vp-doc h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2px;
+  background: var(--svil-accent);
+  transition: width 0.3s ease;
+}
+
+.vp-doc h2:hover::after {
+  width: 4rem;
+}
+
+/* ------------------------------------------------
+ * Schedule table
+ * ------------------------------------------------ */
+.vp-doc table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider);
+  margin: 1.5rem 0;
+}
+
+.vp-doc table thead {
+  background: var(--vp-c-brand-1);
+}
+
+.vp-doc table thead th {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  border: none;
+  padding: 0.75rem 1.25rem;
+}
+
+.vp-doc table td {
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-top: 1px solid var(--vp-c-divider);
+  transition: background-color 0.2s ease;
+}
+
+.vp-doc table tbody tr:not(.break-row):hover td {
+  background: rgba(30, 58, 95, 0.02);
+}
+
+/* Break rows (coffee, lunch) */
+.vp-doc table tr.break-row td {
+  background: rgba(30, 58, 95, 0.03);
+  font-style: italic;
+  color: var(--vp-c-text-2);
+  text-align: center;
+  font-size: 0.9em;
+}
+
+/* TBA placeholder styling */
+.vp-doc table td em {
+  color: var(--vp-c-text-3);
+}
+
+/* ------------------------------------------------
+ * Organizer list: interpunct separators
+ * ------------------------------------------------ */
+.organizer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 1.25rem;
+  font-size: 1.05rem;
+  line-height: 2.2;
+}
+
+.organizer-list span {
+  white-space: nowrap;
+}
+
+.organizer-list span + span::before {
+  content: '\b7';
+  margin: 0 0.8rem;
+  color: var(--svil-accent);
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.organizer-list em {
+  color: var(--vp-c-text-2);
+  font-style: normal;
+  font-size: 0.9em;
+}
+
+/* ------------------------------------------------
+ * Venue block
+ * ------------------------------------------------ */
+.venue-block {
+  margin-top: 1rem;
+  line-height: 1.8;
+}
+
+.venue-block .venue-name a {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+
+.venue-block .venue-name a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--svil-accent);
+  text-underline-offset: 3px;
+}
+
+.venue-block .venue-address a {
+  color: var(--vp-c-text-2);
+  text-decoration: underline;
+  text-decoration-color: var(--svil-accent);
+  text-underline-offset: 3px;
+}
+
+.venue-block .venue-address a:hover {
+  color: var(--vp-c-brand-1);
+}
+
+/* ------------------------------------------------
+ * Partners section: clean footer strip
+ * ------------------------------------------------ */
+.partners-section {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--vp-c-divider);
+  text-align: center;
+}
+
+.partners-section h2 {
+  font-family: var(--vp-font-family-base);
+  border-bottom: none;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--vp-c-text-3);
+  margin-top: 0;
+  padding-bottom: 0;
+  font-weight: 600;
+}
+
+.partners-section h2::after {
+  display: none;
+}
+
+/* ------------------------------------------------
+ * Dark mode — gold on midnight
+ * ------------------------------------------------ */
+
+/* Gold accent underline glows softly */
+.dark .vp-doc h2::after {
+  box-shadow: 0 0 8px rgba(219, 181, 106, 0.25);
+}
+
+/* Table: gradient header, refined borders */
+.dark .vp-doc table {
+  border-color: rgba(100, 140, 180, 0.1);
+}
+
+.dark .vp-doc table thead {
+  background: linear-gradient(135deg, #1a3050 0%, #152840 100%);
+}
+
+.dark .vp-doc table tbody tr:not(.break-row):hover td {
+  background: rgba(107, 159, 212, 0.05);
+}
+
+.dark .vp-doc table tr.break-row td {
+  background: rgba(100, 140, 180, 0.04);
+}
+
+/* Organizer interpunct: soft gold glow */
+.dark .organizer-list span + span::before {
+  text-shadow: 0 0 6px rgba(219, 181, 106, 0.3);
+}
+
+/* Venue link */
+.dark .venue-block .venue-name a {
+  color: var(--vp-c-brand-1);
+}
+
+/* Partners border: gold-tinted */
+.dark .partners-section {
+  border-top-color: rgba(219, 181, 106, 0.1);
+}
