@@ -11,28 +11,44 @@ hero:
 All information on this page is provisional and subject to change.
 :::
 
+<div class="section-alt">
+
+## About
+
+Software Verification in Lean is a one-day open workshop dedicated to the formal verification of software using the Lean 4 theorem prover. Held as part of a broader gathering at INRIA Paris, the workshop brings together researchers and practitioners to share recent advances, practical techniques, and ongoing challenges in building verified software. Whether you work in proof engineering, programming language theory, or software development, we invite you to join us for a day of talks and discussion.
+
+</div>
+
 ## Schedule
 
-| Time | Speaker | Title |
-|------|---------|-------|
-| 10:00–11:00 | Leo de Moura *(affiliation)* | *To be announced* |
-| 11:30–12:30 | Son Ho *(affiliation)* | *To be announced* |
-| 14:00–15:00 | Derek Sorenson *(affiliation)* | *To be announced* |
-| 15:30–16:30 | Karthik Bhargavan *(affiliation)* | *To be announced* |
+<table>
+<thead>
+<tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
+</thead>
+<tbody>
+<tr><td>10:00–11:00</td><td>Leo de Moura <em>(TBA)</em></td><td><em>To be announced</em></td></tr>
+<tr class="break-row"><td>11:00–11:30</td><td colspan="2">Coffee break</td></tr>
+<tr><td>11:30–12:30</td><td>Son Ho <em>(TBA)</em></td><td><em>To be announced</em></td></tr>
+<tr class="break-row"><td>12:30–14:00</td><td colspan="2">Lunch break</td></tr>
+<tr><td>14:00–15:00</td><td>Derek Sorenson <em>(TBA)</em></td><td><em>To be announced</em></td></tr>
+<tr class="break-row"><td>15:00–15:30</td><td colspan="2">Coffee break</td></tr>
+<tr><td>15:30–16:30</td><td>Karthik Bhargavan <em>(TBA)</em></td><td><em>To be announced</em></td></tr>
+</tbody>
+</table>
+
+<div class="section-alt">
 
 ## Organizers
 
-[Shaowei Lin](mailto:shaowei@beneficialaifoundation.org) · [Alessandro D'Angelo](mailto:alessandro@beneficialaifoundation.org)
+<div class="organizer-list">
+  <span>Ashley Blacquiere <em>(Lean FRO)</em></span>
+  <span>Oliver Butterley <em>(BAIF)</em></span>
+  <span>Shaowei Lin <em>(BAIF)</em></span>
+  <span>Alessandro D'Angelo <em>(BAIF)</em></span>
+</div>
 
-<div style="display: flex; align-items: center; gap: 2.5rem; flex-wrap: wrap; margin-top: 1rem;">
-  <a href="https://lean-fro.org" target="_blank">
-    <img src="/images/lean_fro_logo.svg" alt="Lean FRO" style="height: 50px;">
-  </a>
-  <a href="https://www.inria.fr" target="_blank">
-    <img src="/images/inria_logo.svg" alt="INRIA" style="height: 50px;">
-  </a>
 </div>
 
 ## Venue
 
-[INRIA](https://www.inria.fr), Paris — [48 rue Barrault, 75013 Paris, FRANCE](https://maps.google.com/?q=48+rue+Barrault,+75013+Paris,+France)
+[INRIA](https://www.inria.fr), Paris — [48 rue Barrault, 75013 Paris, France](https://maps.google.com/?q=48+rue+Barrault,+75013+Paris,+France)
