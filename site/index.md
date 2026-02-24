@@ -39,9 +39,9 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
 
 <div class="organizer-list">
   <span>Ashley Blacquiere <em>(Lean FRO)</em></span>
-  <span>Oliver Butterley <em>(BAIF)</em></span>
-  <span>Shaowei Lin <em>(BAIF)</em></span>
-  <span>Alessandro D'Angelo <em>(BAIF)</em></span>
+  <span>Oliver Butterley <em>(BAIF)</em> <EmailLink u="oliver" d="beneficialaifoundation.org" /></span>
+  <span>Shaowei Lin <em>(BAIF)</em> <EmailLink u="shaowei" d="beneficialaifoundation.org" /></span>
+  <span>Alessandro D'Angelo <em>(BAIF)</em> <EmailLink u="alessandro" d="beneficialaifoundation.org" /></span>
 </div>
 
 ## Venue

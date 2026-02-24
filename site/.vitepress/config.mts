@@ -12,9 +12,5 @@ export default defineConfig({
       rel: 'stylesheet'
     }]
   ],
-  themeConfig: {
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/Beneficial-AI-Foundation/SVIL2026' }
-    ]
-  }
+  themeConfig: {}
 })

@@ -6,11 +6,13 @@ import './hero.css'
 import './sections.css'
 import Layout from './Layout.vue'
 import PartnerLogos from './components/PartnerLogos.vue'
+import EmailLink from './components/EmailLink.vue'
 
 export default {
   extends: DefaultTheme,
   Layout,
   enhanceApp({ app }) {
     app.component('PartnerLogos', PartnerLogos)
+    app.component('EmailLink', EmailLink)
   }
 }
