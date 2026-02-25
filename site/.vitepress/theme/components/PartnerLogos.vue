@@ -3,6 +3,7 @@ import { withBase } from 'vitepress'
 
 const partners = [
   { name: 'BAIF', logo: '/images/BAIF_Logo.png', url: 'https://beneficialaifoundation.org', invert: true },
+  { name: 'Cryspen', logo: '/images/Cryspen_logo.png', url: 'https://cryspen.com' },
   { name: 'Lean FRO', logo: '/images/lean_fro_logo.svg', url: 'https://lean-fro.org' },
   { name: 'INRIA', logo: '/images/inria_logo.svg', url: 'https://www.inria.fr' },
 ]
