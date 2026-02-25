@@ -35,14 +35,12 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
 </tbody>
 </table>
 
-## Organizers
+## Organizing Committee
 
 <div class="organizer-list">
-  <span>Karthikeyan Bhargavan <em>(Cryspen)</em></span>
   <span>Ashley Blacquiere <em>(Lean FRO)</em></span>
   <span>Oliver Butterley <em>(BAIF)</em> <EmailLink u="oliver" d="beneficialaifoundation.org" /></span>
   <span>Alessandro D'Angelo <em>(BAIF)</em> <EmailLink u="alessandro" d="beneficialaifoundation.org" /></span>
-  <span>Aymeric Fromherz <em>(INRIA)</em></span>
 </div>
 
 ## Venue
@@ -52,10 +50,18 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
   <span class="venue-address"><a href="https://maps.google.com/?q=48+rue+Barrault,+75013+Paris,+France">48 rue Barrault, 75013 Paris, France</a></span>
 </div>
 
+<div class="partners-section organizers-section">
+
+## Organized by
+
+<PartnerLogos group="organizer" :size="64" />
+
+</div>
+
 <div class="partners-section">
 
 ## Partners
 
-<PartnerLogos />
+<PartnerLogos group="partner" />
 
 </div>

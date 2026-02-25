@@ -1,19 +1,29 @@
 <script setup>
+import { computed } from 'vue'
 import { withBase } from 'vitepress'
 
-const partners = [
-  { name: 'BAIF', logo: '/images/BAIF_Logo.png', url: 'https://beneficialaifoundation.org', invert: true },
-  { name: 'Cryspen', logo: '/images/Cryspen_logo.png', url: 'https://cryspen.com' },
-  { name: 'Lean FRO', logo: '/images/lean_fro_logo.svg', url: 'https://lean-fro.org' },
-  { name: 'INRIA', logo: '/images/inria_logo.svg', url: 'https://www.inria.fr' },
+const props = defineProps({
+  group: { type: String, default: 'all' },
+  size: { type: Number, default: 48 },
+})
+
+const all = [
+  { name: 'BAIF', logo: '/images/BAIF_Logo.png', url: 'https://beneficialaifoundation.org', invert: true, group: 'organizer' },
+  { name: 'Lean FRO', logo: '/images/lean_fro_logo.svg', url: 'https://lean-fro.org', group: 'organizer' },
+  { name: 'Cryspen', logo: '/images/Cryspen_logo.png', url: 'https://cryspen.com', group: 'partner' },
+  { name: 'INRIA', logo: '/images/inria_logo.svg', url: 'https://www.inria.fr', group: 'partner' },
 ]
+
+const partners = computed(() =>
+  props.group === 'all' ? all : all.filter(p => p.group === props.group)
+)
 </script>
 
 <template>
   <div class="partner-logos">
     <a v-for="p in partners" :key="p.name" :href="p.url" target="_blank" rel="noopener"
        :class="{ 'logo-invert': p.invert }">
-      <img :src="withBase(p.logo)" :alt="p.name" class="partner-logo" />
+      <img :src="withBase(p.logo)" :alt="p.name" class="partner-logo" :style="{ height: size + 'px' }" />
     </a>
   </div>
 </template>

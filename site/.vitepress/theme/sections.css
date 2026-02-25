@@ -220,6 +220,12 @@
   color: var(--vp-c-brand-1);
 }
 
+.organizers-section + .partners-section {
+  margin-top: 1.5rem;
+  border-top: none;
+  padding-top: 0;
+}
+
 /* Partners border: gold-tinted */
 .dark .partners-section {
   border-top-color: rgba(219, 181, 106, 0.1);
