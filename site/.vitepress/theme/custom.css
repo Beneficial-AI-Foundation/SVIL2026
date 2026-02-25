@@ -26,6 +26,18 @@
 }
 
 /* ------------------------------------------------
+ * Navbar: light-mode title legibility over dark hero
+ * When at the top of the home page, the navbar is transparent
+ * over the dark hero gradient — title text must be white.
+ * Once scrolled, navbar gets --vp-nav-bg-color (white) background
+ * and text reverts to default dark --vp-c-text-1.
+ * ------------------------------------------------ */
+.VPNavBar.home.top .title a,
+.VPNavBar.home.top .content-body {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+/* ------------------------------------------------
  * Dark mode — "gold on midnight"
  * ------------------------------------------------ */
 .dark {
