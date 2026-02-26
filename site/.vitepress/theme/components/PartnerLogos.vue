@@ -8,7 +8,7 @@ const props = defineProps({
 })
 
 const all = [
-  { name: 'BAIF', logo: '/images/BAIF_Logo.png', url: 'https://beneficialaifoundation.org', invert: true, group: 'organizer' },
+  { name: 'BAIF', logo: '/images/BAIF_logo_white.png', darkLogo: '/images/BAIF_Logo.png', url: 'https://beneficialaifoundation.org', group: 'organizer' },
   { name: 'Lean FRO', logo: '/images/lean_fro_logo.svg', url: 'https://lean-fro.org', group: 'organizer' },
   { name: 'Cryspen', logo: '/images/Cryspen_logo.png', url: 'https://cryspen.com', group: 'partner' },
   { name: 'INRIA', logo: '/images/inria_logo.svg', url: 'https://www.inria.fr', group: 'partner' },
@@ -21,9 +21,10 @@ const partners = computed(() =>
 
 <template>
   <div class="partner-logos">
-    <a v-for="p in partners" :key="p.name" :href="p.url" target="_blank" rel="noopener"
-       :class="{ 'logo-invert': p.invert }">
-      <img :src="withBase(p.logo)" :alt="p.name" class="partner-logo" :style="{ height: size + 'px' }" />
+    <a v-for="p in partners" :key="p.name" :href="p.url" target="_blank" rel="noopener">
+      <img v-if="p.darkLogo" :src="withBase(p.logo)" :alt="p.name" class="partner-logo light-only" :style="{ height: size + 'px' }" />
+      <img v-if="p.darkLogo" :src="withBase(p.darkLogo)" :alt="p.name" class="partner-logo dark-only" :style="{ height: size + 'px' }" />
+      <img v-if="!p.darkLogo" :src="withBase(p.logo)" :alt="p.name" class="partner-logo" :style="{ height: size + 'px' }" />
     </a>
   </div>
 </template>
@@ -50,18 +51,10 @@ const partners = computed(() =>
   transform: translateY(-1px);
 }
 
-/* White logos: brand-colored pill in light mode */
-.logo-invert {
-  background: #1e3a5f;
-  border-radius: 10px;
-  padding: 8px 16px;
-  transition: background 0.3s ease;
-}
-
-.dark .logo-invert {
-  background: transparent;
-  padding: 0;
-}
+/* Light/dark logo swap */
+.dark-only { display: none; }
+.dark .light-only { display: none; }
+.dark .dark-only { display: block; }
 
 /* Dark mode: gold glow on hover */
 .dark .partner-logo:hover {
