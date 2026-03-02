@@ -90,6 +90,20 @@
   display: none;
 }
 
+/* Bottom edge — gold hairline + gradient fade */
+.VPHero::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(to bottom, transparent, rgba(13, 27, 42, 0.4));
+  border-bottom: 1px solid rgba(212, 168, 83, 0.2);
+  pointer-events: none;
+  z-index: 1;
+}
+
 /* ------------------------------------------------
  * Responsive: mobile
  * ------------------------------------------------ */
@@ -110,4 +124,18 @@
 
 .dark .VPHero::after {
   opacity: 0.08;
+}
+
+/* Dark mode: bottom edge — gold hairline + gradient fade */
+.dark .VPHero::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(to bottom, transparent, rgba(4, 10, 18, 0.6));
+  border-bottom: 1px solid rgba(219, 181, 106, 0.15);
+  pointer-events: none;
+  z-index: 1;
 }

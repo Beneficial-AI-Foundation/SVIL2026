@@ -12,6 +12,8 @@ hero:
 
 ::: warning Provisional
 All information on this page is provisional and subject to change.
+
+**Registration is free but mandatory.** You can register using [this form](#).
 :::
 
 ## About
