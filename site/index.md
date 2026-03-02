@@ -38,7 +38,7 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
 ## Organizing Committee
 
 <div class="organizer-list">
-  <span>Ashley Blacquiere <em>(Lean FRO)</em></span>
+  <span>Ashley Blacquiere <em>(Lean FRO)</em> <EmailLink u="ashley" d="lean-fro.org" /></span>
   <span>Oliver Butterley <em>(BAIF)</em> <EmailLink u="oliver" d="beneficialaifoundation.org" /></span>
   <span>Alessandro D'Angelo <em>(BAIF)</em> <EmailLink u="alessandro" d="beneficialaifoundation.org" /></span>
 </div>
