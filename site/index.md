@@ -10,10 +10,12 @@ hero:
     alt: LEAN wordmark with verification robot illustration
 ---
 
-::: warning Provisional
-All information on this page is provisional and subject to change.
+::: warning Registration
+**Registration is free but mandatory.** You can register using [this form](https://docs.google.com/forms/d/e/1FAIpQLSchTOLAhSlGp0ArH6jCvouYSLIVGzPkP5clPomt50hU-1jyvA/viewform).
 
-**Registration is free but mandatory.** You can register using [this form](#).
+---
+
+<small>All information on this page is provisional and subject to change.</small>
 :::
 
 ## About
