@@ -29,13 +29,13 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
 <tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
 </thead>
 <tbody>
-<tr><td>10:00–11:00</td><td>Leo de Moura</td><td><em>To be announced</em></td></tr>
+<tr><td>10:00–11:00</td><td><a href="https://leodemoura.github.io/" target="_blank" rel="noopener">Leo de Moura</a></td><td><em>To be announced</em></td></tr>
 <tr class="break-row"><td>11:00–11:30</td><td colspan="2">Coffee break</td></tr>
-<tr><td>11:30–12:30</td><td>Son Ho</td><td><em>To be announced</em></td></tr>
+<tr><td>11:30–12:30</td><td><a href="https://www.sonho.fr/" target="_blank" rel="noopener">Son Ho</a></td><td><em>To be announced</em></td></tr>
 <tr class="break-row"><td>12:30–14:00</td><td colspan="2">Lunch break</td></tr>
-<tr><td>14:00–15:00</td><td>Derek Sorenson</td><td><em>To be announced</em></td></tr>
+<tr><td>14:00–15:00</td><td><a href="https://derekhsorensen.com/" target="_blank" rel="noopener">Derek Sorensen</a></td><td><em>To be announced</em></td></tr>
 <tr class="break-row"><td>15:00–15:30</td><td colspan="2">Coffee break</td></tr>
-<tr><td>15:30–16:30</td><td>Karthik Bhargavan</td><td><em>To be announced</em></td></tr>
+<tr><td>15:30–16:30</td><td><a href="https://bhargavan.info/" target="_blank" rel="noopener">Karthikeyan Bhargavan</a></td><td><em>To be announced</em></td></tr>
 </tbody>
 </table>
 
