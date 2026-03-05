@@ -13,9 +13,6 @@ hero:
 ::: warning Registration
 **Registration is free but mandatory.** You can register using [this form](https://docs.google.com/forms/d/e/1FAIpQLSchTOLAhSlGp0ArH6jCvouYSLIVGzPkP5clPomt50hU-1jyvA/viewform).
 
----
-
-<small>All information on this page is provisional and subject to change.</small>
 :::
 
 ## About
