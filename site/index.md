@@ -11,7 +11,7 @@ hero:
 ---
 
 ::: warning Registration
-**Registration is free but mandatory.** You can register using [this form](https://docs.google.com/forms/d/e/1FAIpQLSchTOLAhSlGp0ArH6jCvouYSLIVGzPkP5clPomt50hU-1jyvA/viewform).
+**Registration is free but mandatory.** You can register using [this form](https://docs.google.com/forms/d/e/1FAIpQLSchTOLAhSlGp0ArH6jCvouYSLIVGzPkP5clPomt50hU-1jyvA/viewform). Please note that room capacity is very limited. Talks will be streamed — more details will appear on this website in due time.
 
 :::
 
