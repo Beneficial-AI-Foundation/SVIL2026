@@ -11,7 +11,7 @@ hero:
 ---
 
 ::: warning Registration
-**Registration is free but mandatory.** You can register using [this form](https://docs.google.com/forms/d/e/1FAIpQLSchTOLAhSlGp0ArH6jCvouYSLIVGzPkP5clPomt50hU-1jyvA/viewform). Please note that room capacity is very limited. Talks will be streamed — more details will appear on this website in due time.
+**Registration is free but mandatory.** You can register using [this form](https://docs.google.com/forms/d/e/1FAIpQLSchTOLAhSlGp0ArH6jCvouYSLIVGzPkP5clPomt50hU-1jyvA/viewform). We have reached maximum on-site capacity — attendance is now online only. More details will appear on this website in due time.
 
 :::
 
@@ -26,6 +26,7 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
 <tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
 </thead>
 <tbody>
+<tr><td>9:00–10:00</td><td><a href="https://www.beneficialaifoundation.org/max" target="_blank" rel="noopener">Max Tegmark</a></td><td><em>To be announced</em></td></tr>
 <tr><td>10:00–11:00</td><td><a href="https://leodemoura.github.io/" target="_blank" rel="noopener">Leo de Moura</a></td><td><em>To be announced</em></td></tr>
 <tr class="break-row"><td>11:00–11:30</td><td colspan="2">Coffee break</td></tr>
 <tr><td>11:30–12:30</td><td><a href="https://www.sonho.fr/" target="_blank" rel="noopener">Son Ho</a></td><td><em>To be announced</em></td></tr>
