@@ -33,7 +33,7 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
 <tr class="break-row"><td>12:30–14:00</td><td colspan="2">Lunch break</td></tr>
 <tr><td>14:00–15:00</td><td><a href="https://derekhsorensen.com/" target="_blank" rel="noopener">Derek Sorensen</a></td><td><details><summary>Correct and Computable Specifications in Lean</summary>The efficacy of formal verification depends on high quality specifications which are both correct and complete. This talk will ask: What is an ideal specification? How do we evaluate and improve our specifications? And how can Lean help us achieve the highest-assurance software possible?</details></td></tr>
 <tr class="break-row"><td>15:00–15:30</td><td colspan="2">Coffee break</td></tr>
-<tr><td>15:30–16:30</td><td><a href="https://bhargavan.info/" target="_blank" rel="noopener">Karthikeyan Bhargavan</a></td><td><em>To be announced</em></td></tr>
+<tr><td>15:30–16:30</td><td><a href="https://bhargavan.info/" target="_blank" rel="noopener">Karthikeyan Bhargavan</a></td><td><details><summary>Verifying Cryptographic Applications: Challenges and Opportunities</summary>At Cryspen, we are developing Hax, a toolchain for verifying Rust programs using a variety of backend provers. We have used Hax to verify post-quantum cryptographic libraries, and to analyze implementations of protocols like TLS 1.3 and SPQR for both functional and security properties. In this talk, I will identify the unique challenges in verifying this class of applications, and I will describe how we use tools like F*, ProVerif, and Lean to verify real-world security-critical software.</details></td></tr>
 </tbody>
 </table>
 
