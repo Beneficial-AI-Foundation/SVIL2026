@@ -11,7 +11,7 @@ hero:
 ---
 
 ::: warning Registration
-**Registration is free but mandatory.** You can register using [this form](https://docs.google.com/forms/d/e/1FAIpQLSchTOLAhSlGp0ArH6jCvouYSLIVGzPkP5clPomt50hU-1jyvA/viewform). We have reached maximum on-site capacity — attendance is now online only. More details will appear on this website in due time.
+**Registration is free but mandatory.** You can register using [this form](https://docs.google.com/forms/d/e/1FAIpQLSchTOLAhSlGp0ArH6jCvouYSLIVGzPkP5clPomt50hU-1jyvA/viewform). We have reached maximum on-site capacity — attendance is now online only. A link for the streaming will be sent to registered participants shortly before the talks start.
 
 :::
 
@@ -29,7 +29,7 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
 <tr><td>9:00–10:00</td><td><a href="https://www.beneficialaifoundation.org/max" target="_blank" rel="noopener">Max Tegmark</a> and <a href="https://www.beneficialaifoundation.org/" target="_blank" rel="noopener">BAIF</a></td><td>Open tools and standards for scaling software verification</td></tr>
 <tr><td>10:00–11:00</td><td><a href="https://leodemoura.github.io/" target="_blank" rel="noopener">Leo de Moura</a></td><td><details><summary>Scalable Software Verification in Lean 4</summary>Lean 4 is evolving from a theorem prover into a platform for scalable software verification. A key challenge is closing the performance gap between Lean's automation and the tools used in software verification (e.g., Aeneas, mvcgen, Velvet). In this talk, I present <code>SymM</code>, a new monadic framework designed for high-performance software verification tools built on top of Lean. <code>SymM</code> enforces a monotonically growing local context, enabling cheap definitional equality checks, optimized introduction and application tactics, and efficient rewriting—all while sharing infrastructure with <code>grind</code>, Lean's SMT-inspired tactic that combines E-matching, congruence closure, and theory solvers. I will demonstrate the new <code>sym =></code> interactive mode, which gives users explicit control over verification condition generation and discharge, and discuss how AI integration is reshaping how we approach verification at scale.</details></td></tr>
 <tr class="break-row"><td>11:00–11:30</td><td colspan="2">Coffee break</td></tr>
-<tr><td>11:30–12:30</td><td><a href="https://www.sonho.fr/" target="_blank" rel="noopener">Son Ho</a></td><td><em>To be announced</em></td></tr>
+<tr><td>11:30–12:30</td><td><a href="https://www.sonho.fr/" target="_blank" rel="noopener">Son Ho</a></td><td>Co-development of code and proofs for SymCrypt</td></tr>
 <tr class="break-row"><td>12:30–14:00</td><td colspan="2">Lunch break</td></tr>
 <tr><td>14:00–15:00</td><td><a href="https://derekhsorensen.com/" target="_blank" rel="noopener">Derek Sorensen</a></td><td><details><summary>Correct and Computable Specifications in Lean</summary>The efficacy of formal verification depends on high quality specifications which are both correct and complete. This talk will ask: What is an ideal specification? How do we evaluate and improve our specifications? And how can Lean help us achieve the highest-assurance software possible?</details></td></tr>
 <tr class="break-row"><td>15:00–15:30</td><td colspan="2">Coffee break</td></tr>
