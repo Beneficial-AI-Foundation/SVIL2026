@@ -95,6 +95,44 @@
   color: var(--vp-c-text-3);
 }
 
+/* Speaker + slides wrapper — inline-block so badge centers under name */
+.speaker-with-slides {
+  display: inline-block;
+  text-align: center;
+}
+
+/* Slides badge — small subtle link below speaker name */
+.slides-badge {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.95em;
+  font-weight: 500;
+  color: var(--svil-accent);
+  text-decoration: none;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.slides-badge:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Slides link inside <summary> */
+.slides-link {
+  font-size: 0.85em;
+  color: var(--svil-accent);
+  text-decoration: none;
+  margin-left: 0.4em;
+  opacity: 0.8;
+}
+
+.slides-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 /* ------------------------------------------------
  * Organizer list: interpunct separators
  * ------------------------------------------------ */
