@@ -56,7 +56,7 @@ Software Verification in Lean is a one-day open workshop dedicated to the formal
 ## Group photo
 
 <figure class="group-photo">
-  <img src="/SVIL2026/images/group-photo.jpg" alt="Group photo of SVIL2026 attendees at INRIA Paris" />
+  <img src="/images/group-photo.jpg" alt="Group photo of SVIL2026 attendees at INRIA Paris" />
 </figure>
 
 <div class="partners-section organizers-section">
